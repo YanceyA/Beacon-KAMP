@@ -145,7 +145,7 @@ The cleanest and easiest way to get started with KAMP is to use Moonraker's Upda
 
     * `fuzz_amount:` This is the **maximum** amount that the mesh bounds can be increased in millimeters *by random*. This setting is really only intended for those who use a nozzle-based probe like a strain gauge or Voron Tap. This will slightly randomize the bounds of the bed mesh which will help to spread out wear on your print surface when printing multiples of the same print job (several plates of similar size). By default, this value is 0. **Maximum** `fuzz_amount` recommended is `3`.
 
-    * `beacon_auto_zrp:` By default, this setting is `False`. Set this to `True` if you are using a Beacon3D probe and want to automatically adjust the mesh zero reference position (zrp) to the center of the KAMP adjusted mesh.
+    * `beacon_auto_zrp:` By default, this setting is `False`. Set this to `True` if you are using a Beacon3D probe and want to automatically adjust the mesh zero reference position (zrp) to the center of the KAMP adjusted mesh. Note that this feature will only work with a Beacon probe and the beacon.py klipper module.
 
 
 <br>
